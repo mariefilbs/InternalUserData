@@ -1,17 +1,91 @@
 * {
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 header {
   width: 100%;
   height: 90px;
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 100px;
   font-weight: bold;
 }
 
 .random-users {
-  width: 1250px;
+  width: 1350px;
   margin: auto;
+  padding-left: 5px;
+}
+
+.each-result {
+  width: 290px;
+  height: 555px;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  float: left;
+  text-align: center;
+}
+
+img {
+  height: 282px;
+  width: 280px;
+}
+
+.name {
+  width: 170px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 65px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #44A87A;
+  font-family: 'Mitr', sans-serif;
+  display: block;
+
+
+}
+
+.email {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  color: lightgrey;
+  font-weight: 100;
+  display: inline-block;
+}
+
+.address {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+#street {
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+#state {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.phone {
+  margin-bottom: 35px;
+}
+
+.ssn {
+  color: transparent;
+  // text-shadow: rgba(0, 0, 0, 0.95) 0px 0px 10px;
+  text-shadow: rgba(0, 150, 0, .5) 0px 0px 10px;
+  display: inline-block;
+}
+
+.ssn:hover {
+  color: #44A87A;
+  text-shadow: none;
 }

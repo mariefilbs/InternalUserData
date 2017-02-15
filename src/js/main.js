@@ -23,12 +23,12 @@ function storeData (data) {
   var insertHTML = `
     <div class ="each-result">
       <img src ="${picture}"/>
-      <div class ="name"> ${firstname} ${lastname}</div>
+      <span class ="name"> ${firstname} ${lastname}</span>
       <div class ="email"> ${email} </div>
       <div class = "address" id ="street"> ${street}</div>
       <div class = "address" id ="state"> ${city} ${state} ${zip} </div>
-      <div class ="phone"> ${phone}</div>
-      <div class ="social"> ${social}</div>
+      <div class ="phone address"> ${phone}</div>
+      <div class ="ssn"> ${social}</div>
   `;
 
   $(".random-users").append(insertHTML);
