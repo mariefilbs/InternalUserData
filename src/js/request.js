@@ -1,9 +1,11 @@
 import $ from "jquery";
 
-var APIrequest = $.ajax({
-  url: 'https://randomuser.me/api/?results=12',
-  dataType: 'json',
-  success: function(data) {
-    console.log(data);
-  }
-});
+function makeRequest (callback) {
+  $.ajax({
+    url: 'https://randomuser.me/api/?results=12',
+    dataType: 'json',
+    success: callback
+  })
+}
+
+export {makeRequest};
