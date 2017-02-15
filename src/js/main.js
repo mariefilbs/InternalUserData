@@ -3,7 +3,7 @@ import $ from "jquery";
 import {makeRequest} from './request.js';
 
 function storeData (data) {
-  //console.log(data);
+  console.log(data);
   for(var i = 0; i < data.results.length; i++) {
   var field = data.results[i];
   console.log(field);
