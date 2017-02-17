@@ -3,4 +3,4 @@ In this assignment, we made an `$.ajax()` call to pull some data, and then manip
 ###Learning Objectives:###
 * Understand the basics of jQuery `$.ajax()`
 
-[Here is a link to my assignment!](tiy-mariefilbey-internaluserdata.surge.sh)
+[Here is a link to my assignment!](http://tiy-mariefilbey-internaluserdata.surge.sh/)
